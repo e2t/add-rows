@@ -14,7 +14,9 @@ Function AddRowToBOM(name As String, idFormatTitles As profileFormatTitles, _
         
     colIndex = missingColIndex
     For i = 0 To swTable.TotalColumnCount - 1
-        If swTable.text(0, i) Like "*наименование*" Then
+        Dim colName As String
+        colName = swTable.text(0, i)
+        If colName Like "*наименование*" Or colName Like "*name*" Then
             colIndex = i
             Exit For
         End If

@@ -13,6 +13,7 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+
 'Written in 2015-2018 by Eduard E. Tikhenko <aquaried@gmail.com>
 '
 'To the extent possible under law, the author(s) have dedicated all copyright
