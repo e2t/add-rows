@@ -1,4 +1,6 @@
-﻿# AddRows
+This project has been moved to https://codeberg.org/e2t/add-rows
+ 
+ # AddRows
 Макрос для добавления пользовательских строк в спецификацию SolidWorks.
 
 ### Зависимости
